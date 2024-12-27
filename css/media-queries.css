@@ -1,0 +1,334 @@
+:root {
+  --screen-xs: 375px;
+  --screen-sm: 576px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+  --screen-xxl: 1440px;
+  --screen-xxxl: 1600px;
+  --screen-xxxxl: 1920px;
+}
+
+/*Adjusted hero queries*/
+@media (max-width: 1450px) {
+  .section--hero--top--right__area h2 {
+    font-size: 4.4rem;
+  }
+  .section--hero__img__container {
+    width: 72.3rem;
+    height: 79.7rem;
+  }
+}
+@media (max-width: 1410px) {
+  .section--hero--top--right__area h2 {
+    font-size: 4.4rem;
+  }
+  .section--hero__img__container {
+    width: 62.3rem;
+    height: 69.7rem;
+  }
+  .section--hero__img__container > img:last-child {
+    width: 15rem;
+    position: absolute;
+    z-index: -1;
+    bottom: 30%;
+    right: 13%;
+  }
+}
+@media (max-width: 1375px) {
+  .section--hero--top--right__area h2 {
+    font-size: 4rem;
+  }
+  .section--hero__img__container {
+    width: 58.3rem;
+    height: 65.7rem;
+  }
+}
+@media (max-width: 1270px) {
+  .section--hero__img__container {
+    width: 54.3rem;
+    height: 61.7rem;
+  }
+}
+@media (max-width: 1270px) {
+  .section--hero--top--right__area h2 {
+    font-size: 3.8rem;
+    line-height: normal;
+  }
+  .section--hero__img__container {
+    width: 54.3rem;
+    height: 61.7rem;
+  }
+}
+@media (max-width: 1050px) {
+  .section--hero--top--right__area h2 {
+    font-size: 3.8rem;
+    line-height: normal;
+  }
+  .section--hero__img__container {
+    width: 50.3rem;
+    height: 57.7rem;
+    margin: 0 auto;
+    margin-bottom: 4.2rem;
+  }
+}
+@media (max-width: 970px) {
+  .section--hero .section--top {
+    flex-direction: column-reverse;
+  }
+
+  .section--hero--top--right__area {
+    text-align: center;
+    margin-top: 4.2rem;
+    padding: 0.8rem;
+  }
+  .section--hero--top--right__area img {
+    padding: 0 8.6rem;
+  }
+  .section--hero--top--right__area a {
+    align-self: center;
+  }
+  .section--hero__img__container {
+    width: 50.3rem;
+    height: 57.7rem;
+  }
+}
+@media (max-width: 580px) {
+  .section--hero .section--top {
+    flex-direction: column-reverse;
+  }
+
+  .section--hero--top--right__area {
+    text-align: center;
+    margin-top: 4.2rem;
+  }
+  .section--hero--top--right__area img {
+    padding: 0 2.6rem;
+  }
+  .section--hero--top--right__area a {
+    align-self: center;
+  }
+  .section--hero__img__container {
+    width: 50.3rem;
+    height: 57.7rem;
+  }
+}
+@media (max-width: 450px) {
+  .section--hero--top--right__area img {
+    padding: 0 0.4rem;
+  }
+  .section--hero__img__container {
+    width: 34.3rem;
+    height: 46.7rem;
+  }
+  .section--hero__img__container > img:last-child {
+    width: 11rem !important;
+    position: absolute;
+    z-index: -1 !important;
+    bottom: 27% !important;
+    right: 6% !important;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .cards__container {
+    flex-wrap: wrap;
+  }
+  .ingredients__card {
+    transform: scale(0.8);
+  }
+  .ingredients--center img:nth-last-of-type(1) {
+    right: 8%;
+    /* transform: scale(0.9); */
+    top: 35%;
+  }
+  .ingredients--center img:nth-last-of-type(2) {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+    margin-inline: auto;
+  }
+  .ingredients--center img:nth-last-of-type(3) {
+    transform: scale(0.9);
+    left: 8%;
+    bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    background: #f1f1f1;
+  }
+  header {
+    box-shadow: none;
+  }
+
+  #logo > img {
+    width: 20rem;
+  }
+
+  .links__list {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .vector1--hero,
+  .vector2--hero,
+  .vector3--hero {
+    display: none;
+  }
+
+  /* .hero--img {
+    transform: scale(0.7);
+    overflow: visible;
+  } */
+
+  /* .section--hero__img__container > img:first-child {
+    position: absolute;
+    z-index: -1;
+    bottom: 12%;
+    left: 20%;
+  }
+
+  .section--hero__img__container > img:last-child {
+    width: 15rem;
+    position: absolute;
+    z-index: -1;
+    bottom: 27%;
+    right: 19%;
+  } */
+
+  .section--hero--top--right__area {
+    margin-left: 0;
+    padding: 2rem;
+  }
+
+  .section--hero__subheading {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .section--hero__text {
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 1.8rem;
+  }
+
+  .linebreak {
+    display: none;
+  }
+
+  .btn--green {
+    align-self: center;
+  }
+
+  .section--bottom {
+    padding-block: 10rem;
+  }
+
+  .section__heading {
+    font-size: 3.5rem;
+    padding-inline: 1rem;
+  }
+
+  .cards__container {
+    flex-direction: column;
+  }
+
+  .product-features__card__row__container {
+    align-items: center;
+  }
+
+  #product-effects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 5rem;
+    padding-left: 10rem;
+    min-height: 50vh;
+    padding-block: 10rem;
+    background: #fff;
+  }
+
+  #product-effects .section__heading {
+    margin-bottom: 10rem;
+  }
+
+  #product-effects .product-features__card__number__container {
+    align-self: start;
+  }
+
+  #ingredients {
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .ingredients--center {
+    order: 3;
+    grid-column: 1 / -1;
+  }
+
+  .ingredients--center img:nth-last-of-type(1) {
+    right: 8%;
+    transform: scale(0.9);
+    top: 22%;
+  }
+  .ingredients--center img:nth-last-of-type(2) {
+    width: 70%;
+    margin-inline: auto;
+  }
+  .ingredients--center img:nth-last-of-type(3) {
+    transform: scale(0.9);
+    left: 8%;
+    bottom: 14%;
+  }
+
+  .ingredients__card {
+    padding-inline: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  #big-dog-img__container {
+    display: flex;
+    justify-content: center;
+    background-position: 10% 80%, 88% 60%;
+    background-size: 15rem;
+  }
+
+  #big-dog-img__container .big-dog {
+    position: relative;
+    width: 80rem;
+    z-index: 1;
+    vertical-align: middle;
+  }
+
+  #product--cards__container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product--details__container {
+    width: 70%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .section--hero__img__container > img:first-child {
+    position: absolute;
+    z-index: -1;
+    bottom: 12%;
+    left: 14%;
+  }
+
+  .section--hero__img__container > img:last-child {
+    width: 15rem;
+    position: absolute;
+    z-index: -1;
+    bottom: 27%;
+    right: 12%;
+  }
+}
